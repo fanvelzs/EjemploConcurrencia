@@ -5,7 +5,7 @@ public class Caja {
     private int totalRecaudado = 0;
 
     /**
-     * syncronized permite que solamente un Thread (Hilo) Ejecute el metodo a la vez.
+     * syncronized permite que solamente un Thread (Hilo) Ejecute el metodo a  la vez.
     */
 /** Uso `synchronized` para ponerle seguro a la caja: solo un vendedor puede registrar una venta a la vez y
  * así evito que dos hilos choquen y me descuadren el dinero. Si dejara solo `public void`,
